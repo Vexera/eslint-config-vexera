@@ -1,0 +1,33 @@
+{
+  "name": "@vexera/eslint-config",
+  "version": "1.0.0",
+  "description": "ESLint Config",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vexera/eslint-config-vexera.git"
+  },
+  "author": "Luke James",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vexera/eslint-config-vexera/issues"
+  },
+  "homepage": "https://github.com/Vexera/eslint-config-vexera#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.14.0",
+    "@typescript-eslint/eslint-plugin-tslint": "^2.14.0",
+    "@typescript-eslint/parser": "^2.14.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.19.1",
+    "tslint": "^5.20.1",
+    "typescript": "^3.7.4"
+  },
+  "eslintConfig": {
+    "extends": "./index.js"
+  },
+  "dependencies": {}
+}
