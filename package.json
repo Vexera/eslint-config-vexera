@@ -16,7 +16,7 @@
     "url": "https://github.com/Vexera/eslint-config-vexera/issues"
   },
   "homepage": "https://github.com/Vexera/eslint-config-vexera#readme",
-  "devDependencies": {
+  "dependencies": {
     "@typescript-eslint/eslint-plugin": "^2.14.0",
     "@typescript-eslint/eslint-plugin-tslint": "^2.14.0",
     "@typescript-eslint/parser": "^2.14.0",
@@ -28,6 +28,5 @@
   },
   "eslintConfig": {
     "extends": "./index.js"
-  },
-  "dependencies": {}
+  }
 }
